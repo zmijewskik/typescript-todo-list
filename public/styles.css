@@ -1,4 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 0 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#new-task-form {
+    display: flex;
+    justify-content: center;
+}
+
 #list{
     list-style: none;
-    padding: 0;
+    padding: 10px 0;
+}
+
+#list li {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+#list li label {
+    width: 80%;
 }
